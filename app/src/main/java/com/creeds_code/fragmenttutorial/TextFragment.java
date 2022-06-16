@@ -28,4 +28,9 @@ public class TextFragment extends Fragment {
         super.onDestroyView();
         binding = null;
     }
+
+    public void changeTextProperties(int fontsize, String text){
+        binding.textView2.setTextSize(fontsize);
+        binding.textView2.setText(text);
+    }
 }

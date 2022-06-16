@@ -26,8 +26,6 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="131dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="128dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/editText1" />
@@ -36,9 +34,9 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="283dp"
-        android:layout_marginEnd="112dp"
+        android:layout_marginTop="73dp"
         android:text="@string/change_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
